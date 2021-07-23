@@ -1,0 +1,182 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin:1px;
+   padding:.5px;
+}
+
+body {
+ background-color: #eae7dc; 
+}
+
+main {
+text-align: center;
+	margin:0;
+	margin-bottom:0;
+	margin-right:7%;
+	margin-left:7%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+ 
+  text-align:inherit;
+  font-family:'Comic Sans MS', Serif;
+  font-size: 55px;
+  text-decoration: overline underline;
+  font-weight: 300;
+   margin:7px;
+   margin-bottom:-5px;
+ 
+}
+
+h2 {color: black;
+  text-align:center;
+  font-family:'Comic Sans MS', sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: 300;}
+
+h3{color: black;
+  text-align:center;
+  font-family:'Comic Sans MS', sans-serif;
+  font-size: 20px;
+  text-decoration:none;
+  font-weight: 300;
+  margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2em;}
+
+h4{color: black;
+  text-align:center;
+  font-family:'Comic Sans MS', sans-serif;
+  font-size: 23px;
+  text-decoration:none;
+  font-weight: 300;
+  margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2em;}
+
+	p{color: #00000;
+	font-size:1.2em;
+	text-align:center;
+	font-weight:200;
+	font-family:'Comic Sans Ms', sans-serif ;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2em;
+
+}
+/* STYLE IMAGES */
+
+#heartbeat 
+{	max-width: 100%;
+	
+	max-height:15%;
+
+ 
+}
+
+/* STYLE NAV BAR */
+
+ul{
+	list-style-type:none;
+	background-color:#e85a4f ;
+ overflow: hidden;
+ padding: .01em;
+ text-align: center;
+
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	padding: 1em;
+}
+
+li a:hover {
+	background-color: #e98074;
+}
+
+.tech {
+	color:#431c53;
+}
+
+/* STYLE BUTTONS */
+button { 
+ border: 2px solid #e85a4f;
+ background-color: #e98074;
+ text-align:center;
+ color:black;
+ font-family:'Comic Sans MS', sans-serif;
+ font-size:14px;
+ border-radius:7%;
+ padding:.1em 2em ;
+ margin: 2px;
+ margin-bottom:50px;
+
+ 
+}
+
+
+/* ADD MORE! */
+
+.video{	
+
+max-height: 30%;
+max-width:70%;
+
+}
+
+.paragraph2Right {
+	float: right;
+}
+
+.closeTitles{
+	margin:0px;
+}
+
+
+
+
+
+
+/* Centered text */
+.centered {
+	
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.class{
+	
+	max-width: 50%;
+	
+	max-height:25%;
+
+ 
+
+}
+
+.images {
+	float: left;
+	max-width:25%;
+	max-height:25%;
+}
+
+#article{
+	text-align:center;
+
+}
+
+.titles{
+	text-align:center;
+}
